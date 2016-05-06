@@ -1,0 +1,35 @@
+# Coverage directory used by tools like istanbul
+coverage/
+# Reports directory used by tools like protractor
+reports/
+
+# Build
+build/
+dist/
+.tmp
+
+# Vendor files
+node_modules/
+bower_components
+vendor
+
+# Temp directories
+temp/
+test/tmp
+test/temp
+
+# Other temp
+.sass-cache
+.grunt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Vim
+.vim/viminfo
+.vim/swaps/*
+.vim/undo

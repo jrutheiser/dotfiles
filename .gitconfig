@@ -1,0 +1,10 @@
+[core]
+        excludesfile = ~/.gitignore
+        attributesfile = ~/.gitattributes
+        editor = vim
+
+[color]
+        ui = always
+
+[include]
+        path = ~/.gitconfig.local
