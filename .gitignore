@@ -28,8 +28,3 @@ test/temp
 .Spotlight-V100
 .Trashes
 Thumbs.db
-
-# Vim
-.vim/viminfo
-.vim/swaps/*
-.vim/undo
