@@ -1,24 +1,4 @@
-# Coverage directory used by tools like istanbul
-coverage/
-# Reports directory used by tools like protractor
-reports/
-
-# Build
-build/
-dist/
-.tmp
-
-# Vendor files
-node_modules/
-bower_components
-vendor
-
-# Temp directories
-temp/
-test/tmp
-test/temp
-
-# Other temp
+# Temp
 .sass-cache
 .grunt
 
