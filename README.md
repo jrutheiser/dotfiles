@@ -6,10 +6,8 @@ Linux and OS X.
 
 ## To-do's
 
-- [ ] Add dotfile symlink bash script
 - [ ] Add more dotfiles
+- [ ] Add Sublime Text preferences
 - [ ] Add OS X install bash script
 - [ ] Add Linux install bash script
-- [ ] Add main OS install bash script
-- [ ] Add Sublime Text preferences
 - [ ] Improve README
