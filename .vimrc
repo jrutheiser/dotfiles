@@ -83,3 +83,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 set undodir=~/.vim/undo
+
+" Load local settings if they exist
+if filereadable(glob("~/.vimrc.local"))
+  source ~/.vimrc.local
+endif
