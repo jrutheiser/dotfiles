@@ -1,6 +1,6 @@
 # Dotfiles
 
-These are the dotfiles that I use when setting up a new machine.
+These are the dotfiles that I use when setting up a new environment.
 
 ## Getting Started
 
@@ -16,9 +16,11 @@ $ ./install.sh
 
 ### Local Settings
 
-You can extend dotfiles by creating the following local files:
+Settings are extendable through the following local files:
 
 #### `~/.gitconfig.local`
+
+If `~/.gitconfig.local` exists it will be included after `~/.gitconfig`.
 
 ```bash
 [user]
@@ -27,6 +29,8 @@ You can extend dotfiles by creating the following local files:
 ```
 
 #### `~/.vimrc.local`
+
+If `~/.vimrc.local` exists it will be be sourced after `~/.vimrc`.
 
 ## License
 
