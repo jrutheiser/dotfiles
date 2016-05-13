@@ -32,14 +32,11 @@ If `~/.gitconfig.local` exists it will be included after `~/.gitconfig`.
 
 If `~/.vimrc.local` exists it will be be sourced after `~/.vimrc`.
 
+#### `~/.bash.local`
+
+If `~/.bash.local` exists it will be be sourced after other bash files.
+
 ## License
 
 The code is available under the [MIT license](https://github.com/jrutheiser/dotfiles/blob/master/LICENSE).
 
-## To-do's
-
-* [ ] Add more dotfiles
-* [ ] Add Sublime Text preferences
-* [ ] Add OS X install bash script
-* [ ] Add Linux install bash script
-* [ ] Improve README
