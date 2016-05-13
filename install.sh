@@ -49,10 +49,6 @@ create_symlinks() {
   link_file "$source_path/.bash_aliases" "$target_path/.bash_aliases"
   link_file "$source_path/.bash_exports" "$target_path/.bash_exports"
 
-  if [ ! -e "$target_path/.gitconfig.local" ]; then
-    cp "$source_path/.gitconfig.local" "$target_path/.gitconfig.local"
-  fi
-
   success "Setting up symlinks"
 }
 
