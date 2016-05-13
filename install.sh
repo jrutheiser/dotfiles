@@ -58,12 +58,14 @@ create_symlinks() {
 
 # Main
 main() {
+  local dotfiles_path="$( cd "$( dirname "${BASH_SOURCE[1]}" )" && pwd );"
+
   msg "Installing dotfiles:\n"
 
   cmd_required "vim"
   cmd_required "git"
 
-  create_symlinks "$PWD" "$HOME"
+  create_symlinks "$dotfiles_path" "$HOME"
 
   msg "\nFinished!"
 }
