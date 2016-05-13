@@ -44,6 +44,11 @@ create_symlinks() {
   link_file "$source_path/.gitignore" "$target_path/.gitignore"
   link_file "$source_path/.gitattributes" "$target_path/.gitattributes"
 
+  # Shell
+  link_file "$source_path/.bash_profile" "$target_path/.bash_profile"
+  link_file "$source_path/.bash_aliases" "$target_path/.bash_aliases"
+  link_file "$source_path/.bash_exports" "$target_path/.bash_exports"
+
   if [ ! -e "$target_path/.gitconfig.local" ]; then
     cp "$source_path/.gitconfig.local" "$target_path/.gitconfig.local"
   fi
