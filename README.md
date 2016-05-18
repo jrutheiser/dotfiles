@@ -36,6 +36,13 @@ If `~/.vimrc.local` exists it will be be sourced after `~/.vimrc`.
 
 If `~/.bash.local` exists it will be be sourced after other bash files.
 
+## Inspiration
+
+These dotfiles were inspired by:
+
+* [Cătălin's dotfiles](https://github.com/alrra/dotfiles)
+* [Paul's dotfiles](https://github.com/paulirish/dotfiles)
+
 ## License
 
 The code is available under the [MIT license](https://github.com/jrutheiser/dotfiles/blob/master/LICENSE).
