@@ -70,8 +70,9 @@ set ignorecase
 set hlsearch   " highlight search terms
 set incsearch  " show matches as you type
 
-" File type
-filetype plugin indent on
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
 
 " Scroll viewport faster
 nnoremap <C-e> 3<C-e>
