@@ -30,6 +30,7 @@ set backspace=indent,eol,start
 " Line numbers
 set number
 set numberwidth=5
+set relativenumber " line numbers relative to cursor
 
 " Line length ruler
 set textwidth=80
