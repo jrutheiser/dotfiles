@@ -1,12 +1,15 @@
+" Don't make vim vi-compatible
 set nocompatible
 
 " Mapleader
 let mapleader=","
 
-" Syntax highlighting
-set t_Co=256
-set background=dark
+" Enable syntax highlighting
 syntax on
+
+" Color scheme
+set t_Co=256 " Enable full color support
+set background=dark
 colorscheme molotov
 
 " Display cursor position
@@ -23,6 +26,9 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set autoindent
+
+" Enable better command line <TAB> completion
+set wildmenu
 
 " Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
