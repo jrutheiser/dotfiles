@@ -1,6 +1,25 @@
 " Don't make vim vi-compatible
 set nocompatible
 
+" Vundle
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Plugins
+Plugin 'mattn/emmet-vim'
+
+call vundle#end()
+
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
+
 " Mapleader
 let mapleader=","
 
@@ -74,10 +93,6 @@ set title
 set ignorecase
 set hlsearch   " highlight search terms
 set incsearch  " show matches as you type
-
-" Enable filetype plugins
-filetype plugin on
-filetype indent on
 
 " Scroll viewport faster
 nnoremap <C-e> 3<C-e>
