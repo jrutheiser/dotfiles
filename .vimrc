@@ -1,21 +1,6 @@
 " Don't make vim vi-compatible
 set nocompatible
 
-" Vundle
-filetype off
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" Plugins
-Plugin 'mattn/emmet-vim'
-
-call vundle#end()
-
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
