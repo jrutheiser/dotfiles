@@ -2,3 +2,7 @@
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+export HISTSIZE=100000
+export HISTFILESIZE="$HISTSIZE"
+
