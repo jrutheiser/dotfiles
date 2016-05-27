@@ -1,9 +1,8 @@
 " Don't make vim vi-compatible
 set nocompatible
 
-" Enable filetype plugins
-filetype plugin on
-filetype indent on
+" Enable filetype plugin, indentation, and detection
+filetype plugin indent on
 
 " Mapleader
 let mapleader=","
@@ -90,6 +89,11 @@ autocmd BufWritePre * :%s/\s\+$//e
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 set undodir=~/.vim/undo
+
+" Filetypes
+
+" Handlebars
+autocmd BufRead,BufNewFile *.hbs,*.handlebars,*.hbs.erb,*.handlebars.erb set ft=html syntax=html
 
 " Load local settings if they exist
 if filereadable(glob("~/.vimrc.local"))
