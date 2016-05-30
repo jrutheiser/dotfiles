@@ -3,7 +3,8 @@
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-export HISTCONTROL=ignoredups:erasedups
-export HISTSIZE=100000
-export HISTFILESIZE="$HISTSIZE"
+export HISTCONTROL=ignoredups:erasedups # no duplicate entries
+export HISTSIZE=100000                  # long history
+export HISTFILESIZE="$HISTSIZE"         # long history
+shopt -s histappend                     # append to history instead of overwrite
 
