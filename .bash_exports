@@ -8,3 +8,6 @@ export HISTSIZE=100000                  # long history
 export HISTFILESIZE="$HISTSIZE"         # long history
 shopt -s histappend                     # append to history instead of overwrite
 
+# Reload history after each command
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
