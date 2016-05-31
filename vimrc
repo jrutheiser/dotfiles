@@ -74,16 +74,13 @@ set history=1000
 set title
 
 " Searching
-set ignorecase
+set ignorecase " case insensitive
 set hlsearch   " highlight search terms
 set incsearch  " show matches as you type
 
 " Scroll viewport faster
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
-
-" Trim trailing whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
 
 " Set local directories
 set backupdir=~/.vim/backups
@@ -94,6 +91,9 @@ set undodir=~/.vim/undo
 
 " Handlebars
 autocmd BufRead,BufNewFile *.hbs,*.handlebars,*.hbs.erb,*.handlebars.erb set ft=html syntax=html
+
+" Trim trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Load local settings if they exist
 if filereadable(glob("~/.vimrc.local"))
