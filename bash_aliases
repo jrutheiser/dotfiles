@@ -8,3 +8,6 @@ alias c="clear"
 alias e="vim --"
 
 alias cd..="cd .."
+
+alias gpom="git push origin master"
+
